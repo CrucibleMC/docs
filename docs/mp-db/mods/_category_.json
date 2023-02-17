@@ -1,0 +1,8 @@
+{
+  "label": "Mods",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "All information about mods"
+  }
+}
