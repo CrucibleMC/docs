@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'pt-br'],
+    locales: ['en'],
   },
 
   presets: [
@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-              'https://github.com/CrucibleMC/docs/',
+              'https://github.com/CrucibleMC/docs/blob/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,12 +62,6 @@ const config = {
               docId: 'crucible/intro',
               position: 'left',
               label: 'Crucible',
-            },
-            {
-              type: 'doc',
-              docId: 'modding/intro',
-              position: 'left',
-              label: 'Modding',
             },
             {
               type: 'doc',
@@ -96,11 +90,7 @@ const config = {
                 {
                   label: 'Crucible',
                   to: '/docs/crucible/intro',
-                },
-                {
-                  label: 'Modding',
-                  to: '/docs/modding/intro',
-                },
+                }
               ],
             },
             {
@@ -122,7 +112,7 @@ const config = {
               ],
             },
           ],
-          copyright: `Copyright © ${new Date().getFullYear()} CrucibleMC & Contributors`,
+          copyright: `Copyright © 2019-${new Date().getFullYear()} CrucibleMC & Contributors`,
         },
         prism: {
           theme: lightCodeTheme,

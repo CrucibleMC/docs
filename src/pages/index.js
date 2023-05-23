@@ -36,8 +36,8 @@ export default function Home() {
           <div className={styles.buttons} style={{paddingBottom: "40px"}}>
             <Link
                 className="button button--secondary button--lg"
-                to="/docs/modding/intro">
-              Modding Documentation & Guides
+                to="/docs/mp-db/intro">
+                Mod & Plugin Database
             </Link>
           </div>
         </main>

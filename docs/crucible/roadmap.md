@@ -19,5 +19,5 @@ Roadmap for our current planned work alongside with things we may find important
 ## Low priority
 - [ ] Mod fixes
 - [ ] Automatic unit testing for crucible
-- [ ] Bring back Crucible Time Machine and other projects to backport cool features
+- [X] Bring back Crucible Time Machine and other projects to backport cool features
 - [ ] Crucible API and implement a bukkit-forge bridge, bukkit plugins provided by mods

@@ -31,6 +31,6 @@ Crucible, therefore Thermos and Cauldron are **not** a fully compliant bukkit im
 relies only on the Bukkit API may work fine however there are no guarantees a plugin using internal craftbukkit/minecraft
 classes will work, and they may need explicit Crucible support
 
-Bukkit API is not flexible, and a lot of plugins are designed to handle modded content and may behave unexpectedly.
+Bukkit API is not flexible, and a lot of plugins are not designed to handle modded content and may behave unexpectedly.
 
 For a list of mod compatibility status, you can click [here](/docs/crucible/basics/plugin-mod-compat).
